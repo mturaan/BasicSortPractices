@@ -1,0 +1,42 @@
+Array : [22,27,16,2,18,6] 
+q1) Steps?
+q2)Big-O Notation?
+q3) Time Complexity: Average case, worst case, best case?
+q4) number 18 is in which case after sorting?
+
+Answers:
+    q1)
+        22,27,[16],2,18,6
+        22,[16],27,2,18,6
+        [16],22,27,2,18,6
+      		16,22,[2],27,18,6
+      		16,[2],22,27,18,6
+        	[2],16,22,27,18,6
+        		2,16,22,[18],27,6
+        		2,16,[18],22,27,6
+        			2,16,18,22,[6],27
+        			2,16,18,[6],22,27
+        			2,16,[6],18,22,27
+        			2,[6],16,18,22,27
+	q2) O(n^2)
+	q3)
+		Average case time complexity:	O(n^2)
+		Worst case time complexity:		O(n^2)
+		Best case time complexity:		O(n)
+	q4) Average Case
+	
+	
+	
+	New Array: [7,3,5,8,2,9,4,15,6]
+		Question: Insertion sort first 4 steps
+	
+			7,3,5,8,2,9,4,15,6
+	
+				s1->3,7,5,8,2,9,4,15,6
+				s2->3,5,7,8,2,9,4,15,6
+				s3->2,3,5,7,8,9,4,15,6
+				s4->2,3,4,5,7,8,9,15,6
+				
+				
+				
+	
