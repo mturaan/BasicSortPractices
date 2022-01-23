@@ -1,0 +1,9 @@
+Binary Search Tree
+Array: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+root is: 7
+
+5 is smaller than root, so 5 will be on left.
+                                                  [7]
+                                              [5]
+1 is smaller than root and 1 is smaller than 5 so it will be on left.
